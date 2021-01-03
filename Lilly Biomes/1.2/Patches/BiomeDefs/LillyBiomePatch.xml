@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+
+<!-- Tropical swamp -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="TropicalSwamp"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>1.485</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="TropicalSwamp"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_TallGrass>4.8</Plant_TallGrass>
+                    <Plant_ShrubLow>2.0</Plant_ShrubLow>
+                    <Plant_TreeWillow>1.72</Plant_TreeWillow>
+                    <Plant_TreeCypress>1.72</Plant_TreeCypress>
+                    <Plant_TreeMaple>1.72</Plant_TreeMaple>
+                    <Plant_Chokevine>0.8</Plant_Chokevine>
+                    <Plant_Alocasia>0.8</Plant_Alocasia>
+                    <Plant_Bush>0.15</Plant_Bush>
+                    <Plant_Clivia>0.07</Plant_Clivia>
+                    <Plant_Berry>0.05</Plant_Berry>
+                    <Plant_Rafflesia>0.0008</Plant_Rafflesia>
+                    <!-- crops -->
+                    <RC2_PlantDurianTree>0.15</RC2_PlantDurianTree>
+                    <VCE_BananaTree>0.15</VCE_BananaTree>
+                    <RC2_PlantSugarcane>0.15</RC2_PlantSugarcane>
+                    <!-- flowers -->
+                    <Plant_Lily>0.6</Plant_Lily>
+                    <Plant_Dahlia>0.6</Plant_Dahlia>
+                    <Plant_Chrysanthemum>0.6</Plant_Chrysanthemum>
+                    <Plant_MSPerrywinkle>0.2</Plant_MSPerrywinkle>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.1</TM_Broots>
+                    <TM_RedPetals>0.12</TM_RedPetals>
+                    <TM_Shrooms>0.08</TM_Shrooms>
+                    <TM_DarkBerries>0.07</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- Tropical rainforest -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>1.35</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="TropicalRainforest"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Grass>3.0</Plant_Grass>
+                    <Plant_TallGrass>2.0</Plant_TallGrass>
+                    <Plant_ShrubLow>2.0</Plant_ShrubLow>
+                    <Plant_Alocasia>0.8</Plant_Alocasia>
+                    <Plant_TreeCecropia>0.3</Plant_TreeCecropia>
+                    <Plant_TreePalm>0.3</Plant_TreePalm>
+                    <Plant_TreeBamboo>0.3</Plant_TreeBamboo>
+                    <Plant_TreeTeak>0.2</Plant_TreeTeak>
+                    <Plant_Bush>0.15</Plant_Bush>
+                    <Plant_Clivia>0.07</Plant_Clivia>
+                    <Plant_Berry>0.05</Plant_Berry>
+                    <Plant_Rafflesia>0.0008</Plant_Rafflesia>
+                    <!-- crops -->
+                    <RC2_PlantDurianTree>0.15</RC2_PlantDurianTree>
+                    <VCE_BananaTree>0.15</VCE_BananaTree>
+                    <Plant_TreeCocoa>0.15</Plant_TreeCocoa>
+                    <RC2_PlantSugarcane>0.15</RC2_PlantSugarcane>
+                    <RC2_PlantBreadfruitTree>0.15</RC2_PlantBreadfruitTree>
+                    <!-- flowers -->
+                    <Plant_Lily>0.6</Plant_Lily>
+                    <Plant_Dahlia>0.6</Plant_Dahlia>
+                    <Plant_Chrysanthemum>0.6</Plant_Chrysanthemum>
+                    <Plant_MSPerrywinkle>0.2</Plant_MSPerrywinkle>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.08</TM_Broots>
+                    <TM_RedPetals>0.1</TM_RedPetals>
+                    <TM_Shrooms>0.09</TM_Shrooms>
+                    <TM_DarkBerries>0.08</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- moist deciduous forest -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="MoistDeciduousForest"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>1.16</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="MoistDeciduousForest"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Berry>0.078</Plant_Berry>
+                    <Plant_Bush>3.140</Plant_Bush>
+                    <Plant_Grass>3.140</Plant_Grass>
+                    <Plant_HealrootWild>0.031</Plant_HealrootWild>
+                    <Plant_TallGrass>3.140</Plant_TallGrass>
+                    <Plant_TreeDrago>0.471</Plant_TreeDrago>
+                    <Plant_TreeWillow>0.471</Plant_TreeWillow>
+                    <Plant_TreeCecropia>0.471</Plant_TreeCecropia>
+                    <!-- crops -->
+                    <RC2_PlantYam>0.15</RC2_PlantYam>
+                    <VCE_Pepper>0.15</VCE_Pepper>
+                    <RC2_PlantCucumber>0.015</RC2_PlantCucumber>
+                    <VCE_OrangeTree>0.15</VCE_OrangeTree>
+                    <RC2_PlantPecanTree>0.15</RC2_PlantPecanTree>
+                    <!-- flowers -->
+                    <Plant_Lily>0.3</Plant_Lily>
+                    <Plant_Dahlia>0.3</Plant_Dahlia>
+                    <Plant_Rose>0.3</Plant_Rose>
+                    <Plant_MSPerrywinkle>0.2</Plant_MSPerrywinkle>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.08</TM_Broots>
+                    <TM_RedPetals>0.08</TM_RedPetals>
+                    <TM_Shrooms>0.06</TM_Shrooms>
+                    <TM_DarkBerries>0.05</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- temperate swamp -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>1.2</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="TemperateSwamp"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_TallGrass>3.2</Plant_TallGrass>
+                    <Plant_Chokevine>0.8</Plant_Chokevine>
+                    <Plant_Bush>0.2</Plant_Bush>
+                    <Plant_TreeWillow>1.0</Plant_TreeWillow>
+                    <Plant_TreeCypress>1.0</Plant_TreeCypress>
+                    <Plant_TreeMaple>1.0</Plant_TreeMaple>
+                    <Plant_Berry>0.05</Plant_Berry>
+                    <Plant_HealrootWild>0.05</Plant_HealrootWild>
+                    <!-- crops -->
+                    <RC2_PlantCarrot>0.15</RC2_PlantCarrot>
+                    <VCE_PeachTree>0.15</VCE_PeachTree>
+                    <RC2_PlantTruffles>0.015</RC2_PlantTruffles>
+                    <Plant_Rice>0.15</Plant_Rice>
+                    <RC2_PlantPecanTree>0.15</RC2_PlantPecanTree>
+                    <!-- flowers -->
+                    <Plant_Lily>0.6</Plant_Lily>
+                    <Plant_Iris>0.6</Plant_Iris>
+                    <Plant_Crocus>0.6</Plant_Crocus>
+                    <Plant_MSPerrywinkle>0.2</Plant_MSPerrywinkle>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.08</TM_Broots>
+                    <TM_RedPetals>0.08</TM_RedPetals>
+                    <TM_Shrooms>0.06</TM_Shrooms>
+                    <TM_DarkBerries>0.05</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- temperete forest -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.975</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="TemperateForest"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Grass>5.0</Plant_Grass>
+                    <Plant_TallGrass>2.0</Plant_TallGrass>
+                    <Plant_Brambles>1.0</Plant_Brambles>
+                    <Plant_Dandelion>0.5</Plant_Dandelion>
+                    <Plant_Bush>0.6</Plant_Bush>
+                    <Plant_TreeOak>0.5</Plant_TreeOak>
+                    <Plant_TreePoplar>0.5</Plant_TreePoplar>
+                    <Plant_Berry>0.05</Plant_Berry>
+                    <Plant_HealrootWild>0.05</Plant_HealrootWild>
+                    <!-- crops -->
+                    <RC2_PlantMushroom>0.15</RC2_PlantMushroom>
+                    <VCE_Peas>0.15</VCE_Peas>
+                    <Plant_Cotton>0.15</Plant_Cotton>
+                    <VCE_CherryTree>0.15</VCE_CherryTree>
+                    <RC2_PlantFlax>0.15</RC2_PlantFlax>
+                    <VCE_PearTree>0.15</VCE_PearTree>
+                    <RC2_PlantSugarMapleTree>0.15</RC2_PlantSugarMapleTree>
+                    <!-- flowers -->
+                    <Plant_Iris>0.6</Plant_Iris>
+                    <Plant_Daffodil>0.6</Plant_Daffodil>
+                    <Plant_Crocus>0.6</Plant_Crocus>
+                    <Plant_MSPerrywinkle>0.2</Plant_MSPerrywinkle>
+                    <Plant_MSOpiumPoppy>0.2</Plant_MSOpiumPoppy>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.03</TM_Broots>
+                    <TM_RedPetals>0.04</TM_RedPetals>
+                    <TM_Shrooms>0.05</TM_Shrooms>
+                    <TM_DarkBerries>0.05</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- woodland -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="Woodland"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.975</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="Woodland"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Berry>0.038</Plant_Berry>
+                    <Plant_Brambles>0.128</Plant_Brambles>
+                    <Plant_Bush>1.504</Plant_Bush>
+                    <Plant_Dandelion>0.226</Plant_Dandelion>
+                    <Plant_Grass>1.504</Plant_Grass>
+                    <Plant_HealrootWild>0.038</Plant_HealrootWild>
+                    <Plant_TallGrass>1.128</Plant_TallGrass>
+                    <Plant_TreeCypress>1.128</Plant_TreeCypress>
+                    <Plant_TreeMaple>0.752</Plant_TreeMaple>
+                    <Plant_TreePoplar>1.128</Plant_TreePoplar>
+                    <!-- crops -->
+                    <RC2_PlantMushroom>0.15</RC2_PlantMushroom>
+                    <VCE_AppleTree>0.15</VCE_AppleTree>
+                    <RC2_PlantCarrot>0.015</RC2_PlantCarrot>
+                    <VCE_PlumTree>0.15</VCE_PlumTree>
+                    <RC2_PlantFlax>0.15</RC2_PlantFlax>
+                    <VCE_PearTree>0.15</VCE_PearTree>
+                    <VCE_CherryTree>0.15</VCE_CherryTree>
+                    <!-- flowers -->
+                    <Plant_Daisy>0.6</Plant_Daisy>
+                    <Plant_Iris>0.6</Plant_Iris>
+                    <Plant_Buttercup>0.6</Plant_Buttercup>
+                    <Plant_MSPerrywinkle>0.2</Plant_MSPerrywinkle>
+                    <Plant_MSOpiumPoppy>0.2</Plant_MSOpiumPoppy>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.03</TM_Broots>
+                    <TM_RedPetals>0.04</TM_RedPetals>
+                    <TM_Shrooms>0.05</TM_Shrooms>
+                    <TM_DarkBerries>0.05</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- grassland -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="Grassland"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>1.3</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="Grassland"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Berry>0.064</Plant_Berry>
+                    <Plant_Bush>0.854</Plant_Bush>
+                    <Plant_Dandelion>0.25</Plant_Dandelion>
+                    <Plant_Grass>2.564</Plant_Grass>
+                    <Plant_HealrootWild>0.064</Plant_HealrootWild>
+                    <Plant_TallGrass>2.564</Plant_TallGrass>
+                    <Plant_TreeBamboo>0.854</Plant_TreeBamboo>
+                    <!-- flowers  -->
+                    <Plant_Buttercup>0.15</Plant_Buttercup>
+                    <Plant_Daisy>0.15</Plant_Daisy>
+                    <Plant_Iris>0.15</Plant_Iris>
+                    <Plant_Daylily>0.15</Plant_Daylily>
+                    <Plant_MSPerrywinkle>0.2</Plant_MSPerrywinkle>
+                    <Plant_MSOpiumPoppy>0.2</Plant_MSOpiumPoppy>
+                    <!-- grains 0.854 total -->
+                    <RC2_PlantOats>0.213</RC2_PlantOats>
+                    <RC2_PlantBarley>0.213</RC2_PlantBarley>
+                    <RC2_PlantChickpeas>0.213</RC2_PlantChickpeas>
+                    <RC2_PlantSorghum>0.213</RC2_PlantSorghum>
+                    <RC2_PlantFlax>0.213</RC2_PlantFlax>
+                    <Plant_Smokeleaf>0.213</Plant_Smokeleaf>
+                    <Plant_Haygrass>0.213</Plant_Haygrass>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.05</TM_Broots>
+                    <TM_RedPetals>0.02</TM_RedPetals>
+                    <TM_Shrooms>0.04</TM_Shrooms>
+                    <TM_DarkBerries>0.04</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- savanna -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="Savanna"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.67</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="Savanna"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Grass>7.0</Plant_Grass>
+                    <Plant_Dandelion>0.8</Plant_Dandelion>
+                    <Plant_Bush>0.7</Plant_Bush>
+                    <Plant_PincushionCactus>0.6</Plant_PincushionCactus>
+                    <Plant_Agave>0.2</Plant_Agave>
+                    <Plant_SaguaroCactus>0.26</Plant_SaguaroCactus>
+                    <Plant_TreeDrago>0.20</Plant_TreeDrago>
+                    <Plant_Berry>0.10</Plant_Berry>
+                    <!-- flowers  -->
+                    <Plant_Lily>0.15</Plant_Lily>
+                    <Plant_Dahlia>0.15</Plant_Dahlia>
+                    <Plant_MSOpiumPoppy>0.1</Plant_MSOpiumPoppy>
+                    <!-- crops -->
+                    <RC2_PlantFigTree>0.1</RC2_PlantFigTree>
+                    <RC2_PlantYam>0.1</RC2_PlantYam>
+                    <RC2_PlantSorghum>0.1</RC2_PlantSorghum>
+                    <RC2_PlantFlax>0.1</RC2_PlantFlax>
+                    <RC2_PlantMushroom>0.1</RC2_PlantMushroom>
+                    <Plant_Hops>0.1</Plant_Hops>
+                    <Plant_Smokeleaf>0.1</Plant_Smokeleaf>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.05</TM_Broots>
+                    <TM_RedPetals>0.02</TM_RedPetals>
+                    <TM_Shrooms>0.04</TM_Shrooms>
+                    <TM_DarkBerries>0.04</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- arid shrubland -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="AridShrubland"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.36</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="AridShrubland"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Agave>1.622</Plant_Agave>
+                    <Plant_Bush>2.703</Plant_Bush>
+                    <Plant_Grass>2.703</Plant_Grass>
+                    <Plant_TallGrass>2.703</Plant_TallGrass>
+                    <Plant_TreeDrago>0.270</Plant_TreeDrago>
+                    <!-- flowers  -->
+                    <Plant_Lily>0.15</Plant_Lily>
+                    <Plant_Dahlia>0.15</Plant_Dahlia>
+                    <Plant_MSOpiumPoppy>0.1</Plant_MSOpiumPoppy>
+                    <!-- crops -->
+                    <VCE_Opuntia>0.1</VCE_Opuntia>
+                    <RC2_PlantPomegranateTree>0.1</RC2_PlantPomegranateTree>
+                    <RC2_PlantYam>0.1</RC2_PlantYam>
+                    <RC2_PlantSorghum>0.1</RC2_PlantSorghum>
+                    <RC2_PlantFlax>0.1</RC2_PlantFlax>
+                    <Plant_Smokeleaf>0.1</Plant_Smokeleaf>
+                    <Plant_Devilstrand>0.01</Plant_Devilstrand>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.05</TM_Broots>
+                    <TM_RedPetals>0.02</TM_RedPetals>
+                    <TM_Shrooms>0.04</TM_Shrooms>
+                    <TM_DarkBerries>0.04</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- desert -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="Desert"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.075</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="Desert"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Grass>6</Plant_Grass>
+                    <Plant_PincushionCactus>1</Plant_PincushionCactus>
+                    <Plant_SaguaroCactus>1.0</Plant_SaguaroCactus>
+                    <Plant_Dandelion>0.5</Plant_Dandelion>
+                    <Plant_TreeDrago>0.45</Plant_TreeDrago>
+                    <Plant_Agave>0.25</Plant_Agave>
+                    <Plant_Bush>0.25</Plant_Bush>
+                    <!-- flowers  -->
+                    <Plant_Lily>0.15</Plant_Lily>
+                    <Plant_Dahlia>0.15</Plant_Dahlia>
+                    <Plant_MSOpiumPoppy>0.1</Plant_MSOpiumPoppy>
+                    <!-- crops -->
+                    <VCE_Opuntia>0.5</VCE_Opuntia>
+                    <Plant_Smokeleaf>0.5</Plant_Smokeleaf>
+                    <Plant_Devilstrand>0.5</Plant_Devilstrand>
+                    <RC2_PlantSorghum>0.5</RC2_PlantSorghum>
+                    <Plant_Psychoid>0.5</Plant_Psychoid>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.03</TM_Broots>
+                    <TM_RedPetals>0.08</TM_RedPetals>
+                    <TM_Shrooms>0.02</TM_Shrooms>
+                    <TM_DarkBerries>0.01</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- extreme desert -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.01</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="ExtremeDesert"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Grass>6</Plant_Grass>
+                    <Plant_SaguaroCactus>1</Plant_SaguaroCactus>
+                    <Plant_Agave>0.25</Plant_Agave>
+                    <!-- crops -->
+                    <VCE_Opuntia>0.15</VCE_Opuntia>
+                    <Plant_Smokeleaf>0.2</Plant_Smokeleaf>
+                    <Plant_Devilstrand>0.1</Plant_Devilstrand>
+                    <RC2_PlantSorghum>0.1</RC2_PlantSorghum>
+                    <Plant_Psychoid>0.1</Plant_Psychoid>
+                    <!-- tribal medicine -->
+                    <Plant_MSOpiumPoppy>0.1</Plant_MSOpiumPoppy>
+                    <TM_Broots>0.03</TM_Broots>
+                    <TM_RedPetals>0.08</TM_RedPetals>
+                    <TM_Shrooms>0.02</TM_Shrooms>
+                    <TM_DarkBerries>0.01</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+
+<!-- tundra -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="Tundra"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.30</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="Tundra"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Grass>3.6</Plant_Grass>
+                    <Plant_Moss>0.5</Plant_Moss>
+                    <Plant_Bush>0.3</Plant_Bush>
+                    <Plant_Astragalus>0.1</Plant_Astragalus>
+                    <Plant_Dandelion>0.1</Plant_Dandelion>
+                    <Plant_TreePine>0.08</Plant_TreePine>
+                    <Plant_TreeBirch>0.08</Plant_TreeBirch>
+                    <Plant_Berry>0.07</Plant_Berry>
+                    <Plant_HealrootWild>0.05</Plant_HealrootWild>
+                    <!-- flowers  -->
+                    <Plant_Crocus>0.1</Plant_Crocus>
+                    <!-- crops -->
+                    <RC2_PlantSugarMapleTree>0.05</RC2_PlantSugarMapleTree>
+                    <RC2_PlantFlax>0.05</RC2_PlantFlax>
+                    <VCE_BearBerryBush>0.05</VCE_BearBerryBush>
+                    <RC2_PlantJuniper>0.05</RC2_PlantJuniper>
+                    <Plant_Devilstrand>0.1</Plant_Devilstrand>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.005</TM_Broots>
+                    <TM_RedPetals>0.002</TM_RedPetals>
+                    <TM_Shrooms>0.01</TM_Shrooms>
+                    <TM_DarkBerries>0.03</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- cold bog -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="ColdBog"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.90</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="ColdBog"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Chokevine>3.0</Plant_Chokevine>
+                    <Plant_TallGrass>2.4</Plant_TallGrass>
+                    <Plant_Moss>0.5</Plant_Moss>
+                    <Plant_Bush>0.3</Plant_Bush>
+                    <Plant_Astragalus>0.1</Plant_Astragalus>
+                    <Plant_TreeWillow>0.6</Plant_TreeWillow>
+                    <Plant_TreeCypress>0.6</Plant_TreeCypress>
+                    <Plant_TreeMaple>0.6</Plant_TreeMaple>
+                    <Plant_Berry>0.07</Plant_Berry>
+                    <Plant_HealrootWild>0.05</Plant_HealrootWild>
+                    <!-- flowers  -->
+                    <Plant_Crocus>0.1</Plant_Crocus>
+                    <Plant_Daylily>0.1</Plant_Daylily>
+                    <!-- crops -->
+                    <VCE_PlumTree>0.05</VCE_PlumTree>
+                    <VCE_AppleTree>0.05</VCE_AppleTree>
+                    <Plant_Potato>0.05</Plant_Potato>
+                    <RC2_PlantFlax>0.05</RC2_PlantFlax>
+                    <VCE_BearBerryBush>0.05</VCE_BearBerryBush>
+                    <RC2_PlantJuniper>0.05</RC2_PlantJuniper>
+                    <Plant_Devilstrand>0.07</Plant_Devilstrand>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.06</TM_Broots>
+                    <TM_RedPetals>0.04</TM_RedPetals>
+                    <TM_Shrooms>0.05</TM_Shrooms>
+                    <TM_DarkBerries>0.04</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+<!-- boreal forest -->
+
+    <li Class="PatchOperationReplace">
+        <xpath>/Defs/BiomeDef[defName="BorealForest"]/plantDensity</xpath>
+
+            <value>
+                <plantDensity>0.6</plantDensity>
+            </value>
+    </li>
+
+    <li Class="PatchOperationReplace">        <!-- Plants -->
+        <xpath>/Defs/BiomeDef[defName="BorealForest"]/wildPlants</xpath>
+            <value>
+                <wildPlants>
+                    <Plant_Grass>8.0</Plant_Grass>
+                    <Plant_Brambles>2.0</Plant_Brambles>
+                    <Plant_Moss>4.0</Plant_Moss>
+                    <Plant_Bush>3.0</Plant_Bush>
+                    <Plant_TreePine>5.0</Plant_TreePine>
+                    <Plant_TreeBirch>1.5</Plant_TreeBirch>
+                    <Plant_TreePoplar>1.2</Plant_TreePoplar>
+                    <Plant_Berry>0.16</Plant_Berry>
+                    <Plant_HealrootWild>0.16</Plant_HealrootWild>
+                    <!-- flowers  -->
+                    <Plant_Crocus>0.1</Plant_Crocus>
+                    <Plant_Daylily>0.1</Plant_Daylily>
+                    <!-- crops -->
+                    <VCE_PlumTree>0.12</VCE_PlumTree>
+                    <VCE_PearTree>0.12</VCE_PearTree>
+                    <RC2_PlantSugarMapleTree>0.12</RC2_PlantSugarMapleTree>
+                    <Plant_Potato>0.12</Plant_Potato>
+                    <RC2_PlantFlax>0.12</RC2_PlantFlax>
+                    <VCE_BearBerryBush>0.12</VCE_BearBerryBush>
+                    <RC2_PlantJuniper>0.12</RC2_PlantJuniper>
+                    <Plant_Devilstrand>0.12</Plant_Devilstrand>
+                    <!-- tribal medicine -->
+                    <TM_Broots>0.01</TM_Broots>
+                    <TM_RedPetals>0.03</TM_RedPetals>
+                    <TM_Shrooms>0.06</TM_Shrooms>
+                    <TM_DarkBerries>0.07</TM_DarkBerries>
+                </wildPlants>
+            </value>
+      </li>
+
+    </operations>
+  </Operation>
+</Patch>

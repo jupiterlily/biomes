@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="Flowers_BaseFlower" ParentName="PlantBase" Abstract="True">
+    <description>A beautiful cultivated flower.</description>
+    <altitudeLayer>Item</altitudeLayer>
+    <selectable>true</selectable>
+    <ingestible />
+    <plant>
+      <dieIfLeafless>true</dieIfLeafless>
+      <harvestTag>Standard</harvestTag>
+      <sowWork>800</sowWork>
+      <sowTags>
+        <li>Ground</li>
+        <li>Decorative</li>
+      </sowTags>
+      <growMinGlow>0.3</growMinGlow>
+      <topWindExposure>0.1</topWindExposure>
+      <growDays>1.5</growDays>
+      <lifespanDaysPerGrowDays>5</lifespanDaysPerGrowDays>
+      <visualSizeRange>0.3~1.05</visualSizeRange>
+      <wildOrder>1</wildOrder>
+      <purpose>Beauty</purpose>
+    </plant>
+  </ThingDef>
+  <!--=========================== Daisy ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Daisy</defName>
+    <label>daisy</label>
+    <graphicData>
+      <texPath>Things/Plant/Daisy</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!--=========================== Lily ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Lily</defName>
+    <label>lily</label>
+    <graphicData>
+      <texPath>Things/Plant/Lily</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!--=========================== Daffodil ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Daffodil</defName>
+    <label>daffodil</label>
+    <graphicData>
+      <texPath>Things/Plant/Daffodil</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!--=========================== Iris ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Iris</defName>
+    <label>iris</label>
+    <graphicData>
+      <texPath>Things/Plant/Iris</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!--=========================== Dahlia ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Dahlia</defName>
+    <label>dahlia</label>
+    <graphicData>
+      <texPath>Things/Plant/Dahlia</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!--=========================== Crocus ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Crocus</defName>
+    <label>crocus</label>
+    <graphicData>
+      <texPath>Things/Plant/Crocus</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!--=========================== Chrysanthemum ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Chrysanthemum</defName>
+    <label>chrysanthemum</label>
+    <graphicData>
+      <texPath>Things/Plant/Chrysanthemum</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+  <!--=========================== Buttercup ==============================-->
+  <ThingDef ParentName="Flowers_BaseFlower">
+    <defName>Plant_Buttercup</defName>
+    <label>buttercup</label>
+    <graphicData>
+      <texPath>Things/Plant/Buttercup</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>85</MaxHitPoints>
+      <Beauty>12</Beauty>
+      <Nutrition>0.05</Nutrition>
+    </statBases>
+  </ThingDef>
+</Defs>
